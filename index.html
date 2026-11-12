@@ -807,13 +807,22 @@
         },
         "areaServed": { "@type": "Country", "name": "Venezuela" },
         "availableLanguage": "es",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "USD",
-            "lowPrice": "25",
-            "highPrice": "60",
-            "offerCount": "3"
-        }
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Apertura de página web",
+                "description": "Creación y publicación de la página web.",
+                "price": "10",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "name": "Mantenimiento mensual",
+                "description": "Mensualidad de mantenimiento y soporte. Las modificaciones se cotizan aparte.",
+                "price": "5",
+                "priceCurrency": "USD"
+            }
+        ]
     }
     </script>
 </head>
@@ -828,8 +837,8 @@
         </div>
         <nav id="mainNav">
             <ul>
-                <li><a onclick="showView('home')" id="nav-home" class="">Inicio</a></li>
-                <li><a onclick="showView('courses')" id="nav-cursos" class="active">Cursos</a></li>
+                <li><a onclick="showView('home')" id="nav-home" class="active">Inicio</a></li>
+                <li><a onclick="showView('courses')" id="nav-cursos" class="">Cursos</a></li>
                 <li><a onclick="showView('services')" id="nav-servicios">Servicios</a></li>
                 <li><a onclick="showView('benefits')" id="nav-beneficios">Beneficios</a></li>
                 <li><a onclick="showView('faq')" id="nav-faq">Preguntas Frecuentes</a></li>
@@ -847,7 +856,7 @@
     </header>
 
     <!-- HOME -->
-    <section class="view" id="view-home">
+    <section class="view active" id="view-home">
         <div class="hero">
             <div class="hero-content">
                 <img src="logo.jpg" alt="GeotterMiu Logo">
@@ -947,14 +956,14 @@
             <div class="services-cta-content">
                 <i class="fas fa-code services-cta-icon"></i>
                 <h2>¿Tienes un negocio y necesitas una página web?</h2>
-                <p><strong>GeotterMiu no solo es cursos.</strong> Creamos páginas web modernas para negocios pequeños en Venezuela: página de presentación, catálogo, menú digital o tienda en línea. Listas en 3 a 7 días, pagas con Pago Móvil en bolívares.</p>
+                <p><strong>GeotterMiu no solo es cursos.</strong> Creamos páginas web modernas para negocios pequeños en Venezuela: página de presentación, catálogo, menú digital o tienda en línea. Listas en 3 a 7 días, pagas con Pago Móvil en bolívares. Apertura $10 + $5 mensuales; modificaciones aparte.</p>
                 <button class="btn btn-primary" style="padding:0.9rem 2.5rem;border-radius:50px;font-size:1rem" onclick="showView('services')"><i class="fas fa-code"></i> Ver Servicios Web</button>
             </div>
         </div>
     </section>
 
     <!-- COURSES -->
-    <section class="view active" id="view-courses">
+    <section class="view" id="view-courses">
         <div class="category-view">
             <button class="back-btn" onclick="showView('home')"><i class="fas fa-arrow-left"></i> Volver al Inicio</button>
             <div class="section-header">
@@ -1408,6 +1417,64 @@
             </div>
         </div>
     </div>
+    </div></div>
+<div class="category-section"><h3 class="category-title"><i class="fas fa-folder-open"></i> Productos</h3><div class="courses-grid">
+    <div class="course-card">
+        <div class="course-badge">Servicio</div>
+        <div class="course-image" style="background-image:url('logo.jpg')"></div>
+        <div class="course-info">
+            <h3>Página Web de Presentación</h3>
+            <div class="course-price">$10 USD + $5/mes</div>
+            <p class="course-description">Página web profesional para tu negocio: información, servicios, galería, botón de WhatsApp y ubicación. Apertura $10 USD y mensualidad $5 USD. Las modificaciones se cotizan aparte.</p>
+            <div class="course-tags"><span class="tag">Página Web</span><span class="tag">Servicios</span><span class="tag">Negocio</span><span class="tag">Venezuela</span></div>
+            <div class="course-actions">
+                <button class="btn btn-primary" onclick="buyOnWhatsApp('Página Web de Presentación', 10)"><i class="fab fa-whatsapp"></i> Consultar</button>
+                <button class="btn btn-secondary" onclick="showCourseDetails('pagina-web-presentacion')"><i class="fas fa-info-circle"></i> Más Info</button>
+            </div>
+        </div>
+    </div>
+    <div class="course-card">
+        <div class="course-badge">Servicio</div>
+        <div class="course-image" style="background-image:url('logo.jpg')"></div>
+        <div class="course-info">
+            <h3>Página con Catálogo o Menú Digital</h3>
+            <div class="course-price">$10 USD + $5/mes</div>
+            <p class="course-description">Muestra tus productos, precios y categorías en una página ordenada, con botones de contacto y enlaces directos. Apertura $10 USD y mensualidad $5 USD.</p>
+            <div class="course-tags"><span class="tag">Catálogo</span><span class="tag">Menú Digital</span><span class="tag">Servicios</span><span class="tag">Negocio</span></div>
+            <div class="course-actions">
+                <button class="btn btn-primary" onclick="buyOnWhatsApp('Página con Catálogo o Menú Digital', 10)"><i class="fab fa-whatsapp"></i> Consultar</button>
+                <button class="btn btn-secondary" onclick="showCourseDetails('pagina-catalogo-digital')"><i class="fas fa-info-circle"></i> Más Info</button>
+            </div>
+        </div>
+    </div>
+    <div class="course-card">
+        <div class="course-badge">Servicio</div>
+        <div class="course-image" style="background-image:url('logo.jpg')"></div>
+        <div class="course-info">
+            <h3>Tienda en Línea</h3>
+            <div class="course-price">$10 USD + $5/mes</div>
+            <p class="course-description">Tienda con catálogo, categorías, búsqueda y enlaces de pago para vender tus productos o cursos desde tu propia web. Apertura $10 USD y mensualidad $5 USD.</p>
+            <div class="course-tags"><span class="tag">Tienda Online</span><span class="tag">E-commerce</span><span class="tag">Servicios</span><span class="tag">Negocio</span></div>
+            <div class="course-actions">
+                <button class="btn btn-primary" onclick="buyOnWhatsApp('Tienda en Línea', 10)"><i class="fab fa-whatsapp"></i> Consultar</button>
+                <button class="btn btn-secondary" onclick="showCourseDetails('tienda-en-linea')"><i class="fas fa-info-circle"></i> Más Info</button>
+            </div>
+        </div>
+    </div>
+    <div class="course-card">
+        <div class="course-badge">Extra</div>
+        <div class="course-image" style="background-image:url('logo.jpg')"></div>
+        <div class="course-info">
+            <h3>Extras y Modificaciones para tu Web</h3>
+            <div class="course-price">A cotizar</div>
+            <p class="course-description">Añade lo que necesites: logo, dominio propio, secciones nuevas, integración de WhatsApp, redes o Google Maps, cambios de diseño y más. Se cotiza según lo que quieras.</p>
+            <div class="course-tags"><span class="tag">Extras</span><span class="tag">Modificaciones</span><span class="tag">Diseño Web</span><span class="tag">Servicios</span></div>
+            <div class="course-actions">
+                <button class="btn btn-primary" onclick="buyOnWhatsApp('Extras y Modificaciones para tu Web', 0)"><i class="fab fa-whatsapp"></i> Consultar</button>
+                <button class="btn btn-secondary" onclick="showCourseDetails('extras-modificaciones-web')"><i class="fas fa-info-circle"></i> Más Info</button>
+            </div>
+        </div>
+    </div>
     </div></div></div>
         </div>
     </section>
@@ -1491,7 +1558,7 @@
                 <p>Creamos la página web de tu negocio: moderna, rápida y a tu alcance</p>
             </div>
             <div class="services-intro">
-                <p>¿No buscas cursos? También te ayudamos a <strong>poner tu negocio en internet</strong>. Si vendes comida, belleza, reparaciones, importas o vendes en redes, una página web te da credibilidad y te ayuda a conseguir más clientes. <strong>Pagas con Pago Móvil en bolívares</strong>, sin mensualidades ni complicaciones.</p>
+                <p>¿No buscas cursos? También te ayudamos a <strong>poner tu negocio en internet</strong>. Si vendes comida, belleza, reparaciones, importas o vendes en redes, una página web te da credibilidad y te ayuda a conseguir más clientes. <strong>Pagas con Pago Móvil en bolívares</strong>. La apertura de tu página cuesta <strong>$10 USD</strong> y la mensualidad <strong>$5 USD</strong>; las modificaciones se cotizan aparte según lo que necesites.</p>
             </div>
 
             <h3 class="course-browser-title" style="text-align:center"><i class="fas fa-layer-group"></i> Lo que podemos hacer por ti</h3>
@@ -1500,31 +1567,31 @@
                     <div class="benefit-icon"><i class="fas fa-store"></i></div>
                     <h3>Página de Presentación</h3>
                     <p>Tu negocio con una página profesional: información, servicios, galería, WhatsApp y cómo llegar. Ideal para dar confianza y ser encontrado en Google.</p>
-                    <span class="price-tag">Desde $25 USD <small>· Pago Móvil Bs</small></span>
+                    <span class="price-tag">$10 apertura + $5/mes <small>· Pago Móvil Bs</small></span>
                 </div>
                 <div class="benefit service-card">
                     <div class="benefit-icon"><i class="fas fa-book-open"></i></div>
                     <h3>Página + Catálogo</h3>
                     <p>Presentación completa con secciones de servicios, productos, menú digital, testimonios y contacto. Para negocios que venden servicios o productos.</p>
-                    <span class="price-tag">Desde $40 USD <small>· Pago Móvil Bs</small></span>
+                    <span class="price-tag">$10 apertura + $5/mes <small>· Pago Móvil Bs</small></span>
                 </div>
                 <div class="benefit service-card">
                     <div class="benefit-icon"><i class="fas fa-shopping-cart"></i></div>
                     <h3>Tienda o Catálogo en Línea</h3>
                     <p>Como esta tienda: muestra tus cursos o productos, con catálogo, categorías y links de pago. Perfecto para vender digital o físico desde tu web.</p>
-                    <span class="price-tag">Desde $60 USD <small>· Pago Móvil Bs</small></span>
+                    <span class="price-tag">$10 apertura + $5/mes <small>· Pago Móvil Bs</small></span>
                 </div>
                 <div class="benefit service-card">
                     <div class="benefit-icon"><i class="fas fa-wrench"></i></div>
                     <h3>Rediseño o Mejoras</h3>
                     <p>¿Ya tienes una web y se ve vieja o no funciona? La rediseñamos, corregimos errores o le agregamos secciones nuevas. Consulta precio por WhatsApp.</p>
-                    <span class="price-tag">Precio según proyecto <small>· Escríbenos</small></span>
+                    <span class="price-tag">Cambios aparte <small>· Según proyecto</small></span>
                 </div>
             </div>
 
             <div class="payment-notice" style="max-width:700px;margin:2.5rem auto 0">
                 <i class="fas fa-mobile-alt"></i>
-                <p><strong>Pago 100% venezolano:</strong> todo se paga con <strong>Pago Móvil en bolívares (Bs)</strong>. Sin tarjetas internacionales ni PayPal. Tú eliges el plan, pagas por adelantado la mitad para empezar y el resto al entregarte tu página lista.</p>
+                <p><strong>Pago 100% venezolano:</strong> todo se paga con <strong>Pago Móvil en bolívares (Bs)</strong>. Sin tarjetas internacionales ni PayPal. La apertura de tu página cuesta <strong>$10 USD</strong> y la mensualidad es de <strong>$5 USD</strong>. Las modificaciones se cotizan aparte según lo que quieras cambiar.</p>
             </div>
 
             <div class="home-section" id="howToServices" style="padding-top:2.5rem">
@@ -1546,12 +1613,12 @@
                     <div class="step">
                         <div class="step-num">3</div>
                         <h3>Paga y desarrollamos</h3>
-                        <p>Pagas la mitad con Pago Móvil en Bs y tu página queda lista en 3 a 7 días.</p>
+                        <p>Pagas los $10 de apertura con Pago Móvil en Bs y tu página queda lista en 3 a 7 días.</p>
                     </div>
                     <div class="step">
                         <div class="step-num">4</div>
                         <h3>Publicada y para crecer</h3>
-                        <p>Publicamos tu página, te pasamos el enlace y te enseñamos cuándo quieras nuevos cambios.</p>
+                        <p>Publicamos tu página, te pasamos el enlace y por $5 al mes la mantenemos activa con soporte. Los cambios adicionales se cotizan aparte.</p>
                     </div>
                 </div>
                 <div class="trust-badges">
@@ -1572,7 +1639,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">¿Tengo que pagar mensualidad por mi página? <i class="fas fa-chevron-down"></i></button>
-                    <div class="faq-a"><p>No. El precio es <strong>único</strong> por la creación de tu página. Puedes opcionalmente comprar un dominio propio, pero puedes empezar gratis con el enlace que te entregamos. Los cambios adicionales se cotizan aparte según tu petición.</p></div>
+                    <div class="faq-a"><p>Sí: la apertura cuesta <strong>$10 USD</strong> y la mensualidad <strong>$5 USD</strong> para mantener tu página activa y con soporte. Las modificaciones se cotizan aparte según lo que necesites. Puedes empezar con el enlace que te entregamos o comprar un dominio propio.</p></div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">¿Necesito saber de computadoras o diseño? <i class="fas fa-chevron-down"></i></button>
@@ -1919,6 +1986,42 @@ Material descargable"></textarea>
                 <button class="btn btn-primary" style="flex:0;padding:0.4rem 0.6rem" onclick="editCourse('curso-barista-profesional')"><i class="fas fa-edit"></i></button>
                 <button class="btn btn-danger" onclick="deleteCourse('curso-barista-profesional')"><i class="fas fa-trash"></i></button>
             </td>
+        </tr><tr>
+            <td class="cname">Página Web de Presentación</td>
+            <td><span class="cbadge">Productos</span></td>
+            <td class="cprice">$10.00</td>
+            <td>Servicio</td>
+            <td class="cactions">
+                <button class="btn btn-primary" style="flex:0;padding:0.4rem 0.6rem" onclick="editCourse('pagina-web-presentacion')"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" onclick="deleteCourse('pagina-web-presentacion')"><i class="fas fa-trash"></i></button>
+            </td>
+        </tr><tr>
+            <td class="cname">Página con Catálogo o Menú Digital</td>
+            <td><span class="cbadge">Productos</span></td>
+            <td class="cprice">$10.00</td>
+            <td>Servicio</td>
+            <td class="cactions">
+                <button class="btn btn-primary" style="flex:0;padding:0.4rem 0.6rem" onclick="editCourse('pagina-catalogo-digital')"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" onclick="deleteCourse('pagina-catalogo-digital')"><i class="fas fa-trash"></i></button>
+            </td>
+        </tr><tr>
+            <td class="cname">Tienda en Línea</td>
+            <td><span class="cbadge">Productos</span></td>
+            <td class="cprice">$10.00</td>
+            <td>Servicio</td>
+            <td class="cactions">
+                <button class="btn btn-primary" style="flex:0;padding:0.4rem 0.6rem" onclick="editCourse('tienda-en-linea')"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" onclick="deleteCourse('tienda-en-linea')"><i class="fas fa-trash"></i></button>
+            </td>
+        </tr><tr>
+            <td class="cname">Extras y Modificaciones para tu Web</td>
+            <td><span class="cbadge">Productos</span></td>
+            <td class="cprice">A cotizar</td>
+            <td>Extra</td>
+            <td class="cactions">
+                <button class="btn btn-primary" style="flex:0;padding:0.4rem 0.6rem" onclick="editCourse('extras-modificaciones-web')"><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger" onclick="deleteCourse('extras-modificaciones-web')"><i class="fas fa-trash"></i></button>
+            </td>
         </tr></tbody>
                 </table>
             </div>
@@ -2065,7 +2168,8 @@ const CATEGORY_ICONS = {
     "Manualidades": "fa-palette",
     "Oficios": "fa-screwdriver-wrench",
     "Mascotas": "fa-paw",
-    "Gastronomía": "fa-utensils"
+    "Gastronomía": "fa-utensils",
+    "Productos": "fa-box-open"
 };
 
 function categoryIcon(cat) {
@@ -2172,9 +2276,10 @@ function createCourseCard(course) {
             <span class="rval">${Number(course.rating).toFixed(1)}</span>
             ${course.reviews ? `<span>(${course.reviews})</span>` : ""}
         </div>` : "";
+    const priceHtml = course.priceText ? escHtml(course.priceText) : "$" + Number(course.price).toFixed(2) + " USD";
     const buy = course.komviiLink
         ? `<a href="${escAttr(course.komviiLink)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>`
-        : `<button class="btn btn-primary" onclick="buyOnWhatsApp('${escAttr(course.name)}', ${course.price})"><i class="fab fa-whatsapp"></i> Consultar</button>`;
+        : `<button class="btn btn-primary" onclick="buyOnWhatsApp('${escAttr(course.name)}', ${Number(course.price) || 0})"><i class="fab fa-whatsapp"></i> Consultar</button>`;
     return `
     <div class="course-card">
         ${course.featured ? `<div class="featured-ribbon"><i class="fas fa-star"></i> Más vendido</div>` : ""}
@@ -2183,7 +2288,7 @@ function createCourseCard(course) {
         <div class="course-info">
             <h3>${escHtml(course.name)}</h3>
             ${ratingHtml}
-            <div class="course-price">$${Number(course.price).toFixed(2)} USD</div>
+            <div class="course-price">${priceHtml}</div>
             <p class="course-description">${escHtml(course.description)}</p>
             <div class="course-tags">${tags}</div>
             <div class="course-actions">
@@ -2210,7 +2315,7 @@ function showCourseDetails(courseId) {
         </div>
         <h2 style="text-align:center;margin-bottom:0.5rem;font-family:var(--font-heading)">${escHtml(course.name)}</h2>
         ${course.rating ? `<p style="text-align:center;margin-bottom:0.5rem;color:var(--gold-primary)"><span class="stars">${htmlStars(course.rating)}</span> <strong>${Number(course.rating).toFixed(1)}</strong>${course.reviews ? ` <span style="color:var(--text-muted)">(${course.reviews} reseñas)</span>` : ""}</p>` : ""}
-        <p style="text-align:center;font-size:1.3rem;font-weight:700;color:var(--gold-primary);margin-bottom:1rem">$${Number(course.price).toFixed(2)} USD</p>
+        <p style="text-align:center;font-size:1.3rem;font-weight:700;color:var(--gold-primary);margin-bottom:1rem">${course.priceText ? escHtml(course.priceText) : "$" + Number(course.price).toFixed(2) + " USD"}</p>
         <p style="text-align:center;color:var(--secondary-blue);margin-bottom:1rem;font-size:0.95rem">
             <i class="fas fa-folder"></i> ${escHtml(course.category || "Sin categoría")}
         </p>
@@ -2229,7 +2334,8 @@ function closeModal() {
 }
 
 function buyOnWhatsApp(name, price) {
-    const msg = `Hola GeotterMiu, estoy interesado en el curso: *${name}* - Precio: *$${Number(price).toFixed(2)} USD*. ¿Cómo puedo comprarlo?`;
+    const priceLabel = Number(price) > 0 ? `$${Number(price).toFixed(2)} USD` : "A cotizar";
+    const msg = `Hola GeotterMiu, estoy interesado en: *${name}* - Precio: *${priceLabel}*. ¿Me das más información?`;
     window.open(`https://wa.me/584129430088?text=${encodeURIComponent(msg)}`, "_blank");
 }
 
@@ -2338,7 +2444,7 @@ function saveCourse() {
     if (editingId) {
         const idx = courses.findIndex(c => c.id === editingId);
         if (idx !== -1) {
-            courses[idx] = { id: courses[idx].id, name, price, category: cat, badge, icon, description: desc, image: img, komviiLink: link, tags, features, ...meta };
+            courses[idx] = { id: courses[idx].id, name, price, category: cat, badge, icon, description: desc, image: img, komviiLink: link, tags, features, ...(courses[idx].priceText ? { priceText: courses[idx].priceText } : {}), ...meta };
             toast("Curso actualizado", "ok");
         }
     } else {
@@ -2422,7 +2528,7 @@ function renderAdminTable() {
         `<tr>
             <td class="cname">${escHtml(c.name)}</td>
             <td><span class="cbadge">${escHtml(c.category || "Sin cat")}</span></td>
-            <td class="cprice">$${Number(c.price).toFixed(2)}</td>
+            <td class="cprice">${c.priceText ? escHtml(c.priceText) : "$" + Number(c.price).toFixed(2)}</td>
             <td>${escHtml(c.badge || "Curso")}</td>
             <td class="cactions">
                 <button class="btn btn-primary" style="flex:0;padding:0.4rem 0.6rem" onclick="editCourse('${escAttr(c.id)}')"><i class="fas fa-edit"></i></button>

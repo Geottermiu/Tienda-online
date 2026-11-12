@@ -789,5 +789,101 @@ window.courses = [
         "komviiLink": "https://app.komvii.com/checkout/g54Q63unPIxxpSSHD08XqCZ1Gu5aMsQZ",
         "rating": 5,
         "reviews": 1
+    },
+    {
+        "id": "pagina-web-presentacion",
+        "name": "Página Web de Presentación",
+        "price": 10,
+        "priceText": "$10 USD + $5/mes",
+        "category": "Productos",
+        "badge": "Servicio",
+        "description": "Página web profesional para tu negocio: información, servicios, galería, botón de WhatsApp y ubicación. Apertura $10 USD y mensualidad $5 USD. Las modificaciones se cotizan aparte.",
+        "tags": [
+            "Página Web",
+            "Servicios",
+            "Negocio",
+            "Venezuela"
+        ],
+        "features": [
+            "Diseño moderno y adaptado a celulares",
+            "Secciones de servicios, galería y contacto",
+            "Botón de WhatsApp y Google Maps",
+            "Entrega en 3 a 7 días",
+            "Apertura $10 USD + $5/mes"
+        ],
+        "icon": "fa-store",
+        "image": "logo.jpg"
+    },
+    {
+        "id": "pagina-catalogo-digital",
+        "name": "Página con Catálogo o Menú Digital",
+        "price": 10,
+        "priceText": "$10 USD + $5/mes",
+        "category": "Productos",
+        "badge": "Servicio",
+        "description": "Muestra tus productos, precios y categorías en una página ordenada, con botones de contacto y enlaces directos. Apertura $10 USD y mensualidad $5 USD.",
+        "tags": [
+            "Catálogo",
+            "Menú Digital",
+            "Servicios",
+            "Negocio"
+        ],
+        "features": [
+            "Catálogo con fotos, precios y categorías",
+            "Menú digital para restaurantes y food trucks",
+            "Botones de WhatsApp por producto",
+            "Buscador y navegación fácil",
+            "Apertura $10 USD + $5/mes"
+        ],
+        "icon": "fa-book-open",
+        "image": "logo.jpg"
+    },
+    {
+        "id": "tienda-en-linea",
+        "name": "Tienda en Línea",
+        "price": 10,
+        "priceText": "$10 USD + $5/mes",
+        "category": "Productos",
+        "badge": "Servicio",
+        "description": "Tienda con catálogo, categorías, búsqueda y enlaces de pago para vender tus productos o cursos desde tu propia web. Apertura $10 USD y mensualidad $5 USD.",
+        "tags": [
+            "Tienda Online",
+            "E-commerce",
+            "Servicios",
+            "Negocio"
+        ],
+        "features": [
+            "Catálogo con categorías y buscador",
+            "Enlaces de pago o pedido por WhatsApp",
+            "Diseño adaptado a celulares",
+            "Panel para actualizar productos",
+            "Apertura $10 USD + $5/mes"
+        ],
+        "icon": "fa-shopping-cart",
+        "image": "logo.jpg"
+    },
+    {
+        "id": "extras-modificaciones-web",
+        "name": "Extras y Modificaciones para tu Web",
+        "price": 0,
+        "priceText": "A cotizar",
+        "category": "Productos",
+        "badge": "Extra",
+        "description": "Añade lo que necesites: logo, dominio propio, secciones nuevas, integración de WhatsApp, redes o Google Maps, cambios de diseño y más. Se cotiza según lo que quieras.",
+        "tags": [
+            "Extras",
+            "Modificaciones",
+            "Diseño Web",
+            "Servicios"
+        ],
+        "features": [
+            "Logo para tu negocio",
+            "Dominio propio y configuración",
+            "Secciones o páginas adicionales",
+            "Integración de WhatsApp, redes y Google Maps",
+            "Cambios de diseño o contenido"
+        ],
+        "icon": "fa-wrench",
+        "image": "logo.jpg"
     }
 ];
