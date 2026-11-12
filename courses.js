@@ -23,34 +23,6 @@
 
 window.courses = [
     {
-        "id": "negocio-cejas",
-        "name": "EL NEGOCIO DE LAS CEJAS",
-        "price": 97,
-        "category": "Belleza",
-        "badge": "Curso",
-        "description": "Aprende a diseñar cejas y construye tu negocio independiente desde cero, incluso si no tienes experiencia. Domina visagismo, depilación, epilación y pigmentación con prácticas en modelo real. Incluye 20 videos grabados con acceso inmediato y de por vida, guías descargables y plantillas listas para usar, grupo privado y acompañamiento por un mes. Convierte tu pasión por la belleza en una fuente de ingresos reales.",
-        "tags": [
-            "Belleza",
-            "Visagismo",
-            "Cejas",
-            "Emprendimiento",
-            "Venezuela"
-        ],
-        "features": [
-            "Visagismo desde cero",
-            "Depilación + epilación + pigmentación",
-            "Prácticas en modelo real",
-            "Costos y protocolos",
-            "20 videos grabados, acceso inmediato y de por vida",
-            "Guías descargables y plantillas listas para usar",
-            "Grupo privado y acompañamiento por un mes",
-            "Sesión 1 a 1 con la experta (bonus)"
-        ],
-        "icon": "fa-book",
-        "image": "https://cdn.komvii.com/products/gPWgvMksytRO4XSwj9vcO7xDOZuGdl3xK9r8N7NX.jpg",
-        "komviiLink": "https://app.komvii.com/checkout/v8mvTuUMAMhzGvlTRQbwKHt0iyUfVNqU"
-    },
-    {
         "id": "Vende-y-Multiplica",
         "name": "Vende y Multiplica tus Ingresos con SHEIN - AMAZON - TEMU - ALIEXPRESS",
         "price": 30,
