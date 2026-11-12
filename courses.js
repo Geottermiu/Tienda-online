@@ -242,7 +242,7 @@ window.courses = [
         "price": 17.43,
         "category": "Salud y Deportes",
         "badge": "Curso",
-        "description": "Taller completo de Flores de Bach: indicaciones, descripciones de las flores, usos, salud, estudios, diagnóstico, casos, intuición y desarrollo personal. Incluye un blog con más de 300 artículos por Google Drive, en formato documento de Google, fácil de ver para principiantes y avanzados, con actualización continua. Con tu compra das un aporte a las ONG en Venezuela. Comisión para afiliados del 50%.",
+        "description": "Taller completo de Flores de Bach: indicaciones, descripciones de las flores, usos, salud, estudios, diagnóstico, casos, intuición y desarrollo personal. Incluye un blog con más de 300 artículos por Google Drive, en formato documento de Google, fácil de ver para principiantes y avanzados, con actualización continua. Con tu compra das un aporte a las ONG en Venezuela.",
         "tags": [
             "Salud",
             "Terapia",
@@ -489,5 +489,305 @@ window.courses = [
         "icon": "fa-apple-alt",
         "image": "https://cdn2.roaslatam.com/products/FAKxb4hpOmX3pGGo6x5pqWzIIQ9HS4xd74BweWX0.png",
         "komviiLink": "https://app.komvii.com/checkout/cR1RSGMWfoFsdBfarTPaYPHzut57AUv7"
+    },
+    {
+        "id": "mecanica-para-motos",
+        "name": "Mecánica para Motos",
+        "price": 60,
+        "category": "Oficios",
+        "badge": "Curso",
+        "description": "Aprende mecánica de motos desde cero y de forma práctica: mantenimiento preventivo y correctivo, diagnóstico y reparación de fallas comunes. Un curso pensado para quienes quieren ahorrar en talleres, trabajar en el sector o emprender su propio servicio.",
+        "tags": [
+            "Mecánica",
+            "Motos",
+            "Oficios",
+            "Emprendimiento",
+            "Venezuela"
+        ],
+        "features": [
+            "Mantenimiento preventivo y correctivo",
+            "Diagnóstico de fallas comunes",
+            "Reparaciones paso a paso desde cero",
+            "Ahorra en talleres y aprende a hacerlo tú",
+            "Ideal para trabajar o emprender",
+            "Acceso inmediato y de por vida"
+        ],
+        "icon": "fa-motorcycle",
+        "image": "https://cdn.komvii.com/products/gZQrzjBz4r09iGfsp5fzaSCfnXbHe5K8kNHpUxzf.png",
+        "komviiLink": "https://app.komvii.com/checkout/hzchlsCPVZq0MY0Uru9j678XgsbNCKGM",
+        "rating": 4.9,
+        "reviews": 10
+    },
+    {
+        "id": "accesorios-resina",
+        "name": "Accesorios en resina para emprender",
+        "price": 30,
+        "category": "Manualidades",
+        "badge": "Curso",
+        "description": "Aprende a crear accesorios y piezas en resina epóxica desde cero: joyería, llaveros, posavasos y decoración con efectos profesionales. Incluye técnicas, materiales, costos y un bono completo para crear tu marca y vender por redes sociales.",
+        "tags": [
+            "Resina",
+            "Manualidades",
+            "Joyería",
+            "Emprendimiento",
+            "Venezuela"
+        ],
+        "features": [
+            "Resina epóxica desde cero: tipos, mezclas y seguridad",
+            "Técnicas de encapsulado, capas, flores secas y shakers",
+            "Efectos mármol, océano, holográfico, geoda y más",
+            "Joyería, llaveros, posavasos y decoración",
+            "Bono: crea tu marca, fotos, catálogo y redes",
+            "Acceso inmediato y soporte por 6 meses"
+        ],
+        "icon": "fa-gem",
+        "image": "https://cdn.komvii.com/products/2HBiNpiXvFhGwvCvcMtoZUqBeSVibfTGLqtD35cp.png",
+        "komviiLink": "https://app.komvii.com/checkout/1zHP5z7ZX3GG7NYnIcA7jqaUub6NdYyZ",
+        "rating": 5,
+        "reviews": 7
+    },
+    {
+        "id": "alimentacion-natural-mascotas",
+        "name": "Alimentación Natural para Mascotas",
+        "price": 35,
+        "category": "Mascotas",
+        "badge": "Curso",
+        "description": "Aprende a preparar comida natural y recetas caseras para perros y gatos, usando ingredientes accesibles y plantas medicinales para apoyar su salud física y emocional. Incluye ideas y costos para emprender con un negocio de alimentación para mascotas.",
+        "tags": [
+            "Mascotas",
+            "Alimentación",
+            "Recetas",
+            "Negocio",
+            "Venezuela"
+        ],
+        "features": [
+            "Recetas caseras para perros y gatos",
+            "Uso de plantas medicinales en la alimentación",
+            "Mejora la salud física y emocional de tu mascota",
+            "Recetas fáciles y que se pueden congelar",
+            "Ideas, costos y mercados para emprender",
+            "Acceso inmediato y de por vida"
+        ],
+        "icon": "fa-paw",
+        "image": "https://cdn.komvii.com/products/wejnhFWz9IB1PiNWUAPWW2zV9f9RMz5Qvr3iYZBr.png",
+        "komviiLink": "https://app.komvii.com/checkout/yEnIwuORXJazc5g63vwbjA0GhZAtTG8n",
+        "rating": 5,
+        "reviews": 7
+    },
+    {
+        "id": "control-precios-repuestos",
+        "name": "Control de Precios y Rentabilidad — Repuestos, Ropa y Tecnología",
+        "price": 11,
+        "category": "Negocios",
+        "badge": "Recursos",
+        "description": "Herramienta práctica para calcular costos y fijar precios rentables en negocios de repuestos, ropa, tecnología, ferretería y electrodomésticos. Identifica gastos ocultos, protege tu margen y deja de vender a ciegas.",
+        "tags": [
+            "Negocios",
+            "Precios",
+            "Rentabilidad",
+            "Costos",
+            "Venezuela"
+        ],
+        "features": [
+            "Estructura de costos para repuestos, ropa y tecnología",
+            "Cálculo de precios y margen de ganancia",
+            "Detección de gastos ocultos",
+            "Aplicable a ferretería y electrodomésticos"
+        ],
+        "icon": "fa-calculator",
+        "image": "https://cdn2.roaslatam.com/products/RDVQUO11kx3kcZ0itH3U0IDiypAU0JWScTHlUUS5.png",
+        "komviiLink": "https://app.komvii.com/checkout/W6fh62igbmfGANJnIe3hPXfTnraHAJdc",
+        "rating": 4.8,
+        "reviews": 4
+    },
+    {
+        "id": "control-precios-bodega",
+        "name": "Control de Precios y Rentabilidad — Bodega, Farmacia y Papelería",
+        "price": 11,
+        "category": "Negocios",
+        "badge": "Recursos",
+        "description": "Herramienta práctica para calcular costos y fijar precios rentables en bodegas, farmacias, papelerías y licorerías. Controla tus márgenes, detecta fugas de capital y decide con números claros.",
+        "tags": [
+            "Negocios",
+            "Precios",
+            "Rentabilidad",
+            "Costos",
+            "Venezuela"
+        ],
+        "features": [
+            "Estructura de costos para bodega y farmacia",
+            "Cálculo de precios y margen de ganancia",
+            "Detección de gastos ocultos",
+            "Aplicable a papelería y licorería"
+        ],
+        "icon": "fa-calculator",
+        "image": "https://cdn2.roaslatam.com/products/4xiVumiBcUJvH0Ds7vFYr3YlOKMKqSa6DmY4uMVQ.png",
+        "komviiLink": "https://app.komvii.com/checkout/l3GXkd47DqDNOLSLe4tbXdVtfJtux2gq",
+        "rating": 5,
+        "reviews": 3
+    },
+    {
+        "id": "50-postres-emprender",
+        "name": "50 Postres para Emprender desde Casa",
+        "price": 10,
+        "category": "Gastronomía",
+        "badge": "E-book",
+        "description": "Pack de 50 recetas de repostería seleccionadas para emprender desde casa: tortas, galletas, postres en vaso y frituras, con costos y plan de producción. Incluye guía de ventas, fotografía con celular y workbook para organizar tu negocio.",
+        "tags": [
+            "Repostería",
+            "Postres",
+            "Gastronomía",
+            "Emprendimiento",
+            "Venezuela"
+        ],
+        "features": [
+            "50 recetas rentables, económicas y fáciles de vender",
+            "Tortas, bizcochos, galletas, postres en vaso y frituras",
+            "Plan de producción para iniciar tu negocio",
+            "Bono: cómo promocionar y vender tus postres",
+            "Bono: workbook Tu Negocio desde Casa",
+            "Acceso inmediato"
+        ],
+        "icon": "fa-cake-candles",
+        "image": "https://cdn2.roaslatam.com/products/MP3Kax7jUpLegwNlnMKmO7LCZ2GjzqsIVq23Tnbm.jpg",
+        "komviiLink": "https://app.komvii.com/checkout/lb4dIb7WOdPOS8Ht27nwXvCj5fQ7s28z",
+        "rating": 4.5,
+        "reviews": 4
+    },
+    {
+        "id": "biblia-del-prompt-2026",
+        "name": "La Biblia del Prompt 2026: Contenido Infinito",
+        "price": 27,
+        "category": "IA",
+        "badge": "Pack",
+        "description": "105 prompts probados para transformar ChatGPT en tu estratega de marketing, más un sistema para no quedarte sin ideas de contenido. Incluye plantillas de Canva y un archivo CSV para generar 30 días de publicaciones en minutos.",
+        "tags": [
+            "IA",
+            "ChatGPT",
+            "Prompts",
+            "Marketing",
+            "Contenido"
+        ],
+        "features": [
+            "105 prompts para ventas, autoridad y viralidad",
+            "Sistema de Contenido Infinito paso a paso",
+            "Bono: 5 plantillas premium de Canva",
+            "Bono: CSV para generar 30 días de posts en 5 minutos",
+            "Acceso inmediato"
+        ],
+        "icon": "fa-wand-magic-sparkles",
+        "image": "https://cdn2.roaslatam.com/products/JgyJSmUXqjthSaCSlR83WwcVCJHi0Ag9M1lTc9mG.jpg",
+        "komviiLink": "https://app.komvii.com/checkout/JAlbMcT65uCFCaJG6vVgb4auUKKXezMq",
+        "rating": 5,
+        "reviews": 1
+    },
+    {
+        "id": "excel-a-app-lovable",
+        "name": "De Excel a Aplicación: Taller Práctico con Lovable",
+        "price": 47,
+        "category": "Tecnología",
+        "badge": "Curso",
+        "description": "Convierte un Excel o una idea en una aplicación real con interfaz amigable y accesible desde el teléfono, usando IA y sin programar. Taller grabado con casos reales, método paso a paso y biblioteca de apps listas para copiar.",
+        "tags": [
+            "IA",
+            "Lovable",
+            "Apps",
+            "No-Code",
+            "Excel"
+        ],
+        "features": [
+            "Taller completo grabado (+2 horas) con 2 casos reales",
+            "Método IDEA → PROMPT → PROTOTIPO → APP",
+            "Biblioteca de apps con demo y prompt maestro",
+            "81 trucos para no quemar créditos en Lovable",
+            "Bonus: Arquitecto de Prompts para ChatGPT, Gemini y Claude",
+            "Guía completa de Lovable en español + comunidad"
+        ],
+        "icon": "fa-laptop-code",
+        "image": "https://cdn2.roaslatam.com/products/apsWlr5lQWKQ4T34sgNy1YLclJgK0udJHupt0wFy.png",
+        "komviiLink": "https://app.komvii.com/checkout/hHJBGw0AEOhDjk8TFT7WthKPh9B2W38S",
+        "rating": 5,
+        "reviews": 1
+    },
+    {
+        "id": "automatizar-whatsapp-business",
+        "name": "Guía Práctica para Automatizar WhatsApp Business",
+        "price": 4.97,
+        "category": "Marketing",
+        "badge": "E-book",
+        "description": "Configura WhatsApp Business hoy mismo con 12 plantillas listas para usar, mensajes de bienvenida, ausencia y respuestas rápidas adaptados a tu negocio. Incluye guía paso a paso, tono por tipo de negocio, checklist de auditoría y comparativas antes/después.",
+        "tags": [
+            "WhatsApp",
+            "Automatización",
+            "Ventas",
+            "Negocios",
+            "Marketing"
+        ],
+        "features": [
+            "12 plantillas para bienvenida, ausencia y respuestas rápidas",
+            "Configuración paso a paso dentro de WhatsApp Business",
+            "Guía de tono según tu tipo de negocio",
+            "Checklist de auditoría mensual en 10 minutos",
+            "Comparativas antes/después para retener clientes"
+        ],
+        "icon": "fa-comments",
+        "image": "https://cdn2.roaslatam.com/products/5Uca7HP7U1nlXCrPLuRKyd5z5ZgHrUlMWZNhjAo1.jpg",
+        "komviiLink": "https://app.komvii.com/checkout/YH4EKqMsb9LC8wdNhAPCU8YXbp1ODn4y",
+        "rating": 5,
+        "reviews": 1
+    },
+    {
+        "id": "del-cacao-al-chocolate",
+        "name": "Del Cacao al Chocolate: Fabrica tus Chocolates y Crea tu Marca",
+        "price": 40,
+        "category": "Gastronomía",
+        "badge": "Curso",
+        "description": "Masterclass para fabricar todo tipo de chocolates y montar tu propia fábrica, taller o laboratorio. Aprende el proceso paso a paso, aprovecha la demanda de chocolates gourmet y saludables con alto contenido de cacao, y crea tu propia marca.",
+        "tags": [
+            "Chocolate",
+            "Gastronomía",
+            "Negocio",
+            "Cacao",
+            "Venezuela"
+        ],
+        "features": [
+            "Fabricación de todo tipo de chocolates paso a paso",
+            "Monta tu fábrica, taller o laboratorio de chocolate",
+            "Chocolates gourmet, saludables y con alto contenido de cacao",
+            "Creación de tu propia marca",
+            "Certificado avalado por Hotmart y Seminarios Online"
+        ],
+        "icon": "fa-candy",
+        "image": "https://cdn.komvii.com/products/WWQpUKPrh1vYtrkbCYsN7vG2jKBtEM1376OtTok0.png",
+        "komviiLink": "https://app.komvii.com/checkout/XgTSZHU6i5ZZu0dckAZm08dpWoyZzUGR",
+        "rating": 5,
+        "reviews": 1
+    },
+    {
+        "id": "curso-barista-profesional",
+        "name": "Curso de Barista Profesional",
+        "price": 14.99,
+        "category": "Gastronomía",
+        "badge": "Curso",
+        "description": "Aprende las técnicas de café de especialidad: calibración de molinos, extracción de espressos perfectos, texturización de leche nivel competencia y mantenimiento de equipos. Ideal para trabajar en cafeterías top o abrir tu propio local.",
+        "tags": [
+            "Café",
+            "Barista",
+            "Gastronomía",
+            "Negocio",
+            "Venezuela"
+        ],
+        "features": [
+            "Calibración de molinos y extracción de espressos perfectos",
+            "Texturización de leche nivel competencia",
+            "Mantenimiento de equipos",
+            "Técnicas de los mejores baristas del mundo",
+            "Para trabajar en cafeterías o abrir tu propio local"
+        ],
+        "icon": "fa-mug-hot",
+        "image": "https://cdn2.roaslatam.com/products/ewPnKbDunYnqyaYysKerX2cq6KnVGS8n6gbfYL1O.png",
+        "komviiLink": "https://app.komvii.com/checkout/g54Q63unPIxxpSSHD08XqCZ1Gu5aMsQZ",
+        "rating": 5,
+        "reviews": 1
     }
 ];
