@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://geottermiuuniversal.github.io/GeotterMiu-Tienda-online/sitemap.xml
+Sitemap: https://geottermiu.github.io/Tienda-online/sitemap.xml

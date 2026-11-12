@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://geottermiuuniversal.github.io/GeotterMiu-Tienda-online/</loc>
+    <loc>https://geottermiu.github.io/Tienda-online/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://geottermiuuniversal.github.io/GeotterMiu-Tienda-online/privacy.html</loc>
+    <loc>https://geottermiu.github.io/Tienda-online/privacy.html</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://geottermiuuniversal.github.io/GeotterMiu-Tienda-online/terms.html</loc>
+    <loc>https://geottermiu.github.io/Tienda-online/terms.html</loc>
     <priority>0.3</priority>
   </url>
 </urlset>
